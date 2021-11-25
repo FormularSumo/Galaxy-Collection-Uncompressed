@@ -1,0 +1,12 @@
+from moviepy.editor import VideoFileClip
+from moviepy.video.tools.cuts import FramesMatches
+
+# Open a video file (any format should work)
+clip = VideoFileClip("Starry Sky.mp4")
+
+# Downsize the clip to a width of 150px to speed up things
+clip_small = clip.resize(width=150)
+
+# Find all the pairs of matching frames an return their
+# corresponding start and end times. Takes 15-60 minutes.
+print(FramesMatches.from_clip(clip_small, 10, 60))
