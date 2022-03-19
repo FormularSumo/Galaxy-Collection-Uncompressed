@@ -16,4 +16,4 @@ Compress-Archive -Path "C:\Users\chewy\Documents\SWGC\Galaxy Collection\*" -Dest
 
 Remove-Item "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection\game.zip"
 
-sleep 60
+Remove-Item "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection\Galaxy Collection\*" -Recurse
