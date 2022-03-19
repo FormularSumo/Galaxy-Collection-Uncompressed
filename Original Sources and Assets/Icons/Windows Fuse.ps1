@@ -15,5 +15,3 @@ Start-Sleep -Milliseconds 1000
 Compress-Archive -Path "C:\Users\chewy\Documents\SWGC\Galaxy Collection\*" -DestinationPath "C:\Users\chewy\Documents\SWGC\Galaxy Collection.zip"  -Force
 
 Remove-Item "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection\game.zip"
-
-Remove-Item "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection\Galaxy Collection\*" -Recurse
