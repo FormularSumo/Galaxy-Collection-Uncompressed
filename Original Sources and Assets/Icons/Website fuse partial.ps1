@@ -2,9 +2,8 @@ npx love.js.cmd -m 150000000 -t "Galaxy Collection" "C:\Users\chewy\Documents\SW
 
 cd "C:\Users\chewy\Documents\SWGC\Website unmodified"
 
-node globalizeFS.js
-
 Remove-Item "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection-Web\game.data" -Recurse
+Remove-Item "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection-Web\game.js" -Recurse
 
 cmd /c copy "C:\Users\chewy\Documents\SWGC\Website unmodified\game.data" "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection-Web\game.data"
 cmd /c copy "C:\Users\chewy\Documents\SWGC\Website unmodified\game.js" "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection-Web\game.js"
