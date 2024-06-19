@@ -1,3 +1,5 @@
+#! /bin/bash
+
 npx love.js -m 150000000 -t "Galaxy Collection" "/home/james/Documents/SWGC/Website/game.love" "/home/james/Documents/SWGC/Website unmodified" -c
 
 cd "/home/james/Documents/SWGC/Website unmodified"
@@ -8,4 +10,4 @@ cp "/home/james/Documents/SWGC/Website unmodified/game.data" "/home/james/Docume
 
 cd /home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web
 
-python3 -m http.server
+konsole -e python3 -m http.server
