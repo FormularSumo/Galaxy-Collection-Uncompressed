@@ -2,7 +2,7 @@
 
 cd /home/james/Documents/SWGC/Star-Wars-Galaxy-Collection; zip -9 -r -FSr /home/james/Documents/SWGC/Website/game.love *
 
-npx love.js -m 150000000 -t "Galaxy Collection" "/home/james/Documents/SWGC/Website/game.love" "/home/james/Documents/SWGC/Website unmodified" -c
+love.js -m 150000000 -t "Galaxy Collection" "/home/james/Documents/SWGC/Website/game.love" "/home/james/Documents/SWGC/Website unmodified" -c
 
 cd "/home/james/Documents/SWGC/Website unmodified"
 
