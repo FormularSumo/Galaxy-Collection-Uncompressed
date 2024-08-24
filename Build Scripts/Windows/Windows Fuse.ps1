@@ -8,7 +8,7 @@ Start-Sleep -Milliseconds 500
 
 Start-Sleep -Milliseconds 500
 
-& "C:\Program Files (x86)\Resource Hacker\ResourceHacker.exe" -open "C:\Users\chewy\Documents\SWGC\Galaxy Collection\Galaxy Collection.exe" -save "C:\Users\chewy\Documents\SWGC\Galaxy Collection\Galaxy Collection.exe" -resource "C:\Users\chewy\Documents\SWGC\Uncompressed-files-Star-Wars-Galaxy-Collection\Original Sources and Assets\Icons\VersionInfo.res" -action addoverwrite
+& "C:\Program Files (x86)\Resource Hacker\ResourceHacker.exe" -open "C:\Users\chewy\Documents\SWGC\Galaxy Collection\Galaxy Collection.exe" -save "C:\Users\chewy\Documents\SWGC\Galaxy Collection\Galaxy Collection.exe" -resource "C:\Users\chewy\Documents\SWGC\Uncompressed-files-Star-Wars-Galaxy-Collection\Build Scripts\VersionInfo.res" -action addoverwrite
 
 Start-Sleep -Milliseconds 1000
 
