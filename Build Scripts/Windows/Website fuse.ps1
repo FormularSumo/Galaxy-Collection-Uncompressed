@@ -1,10 +1,10 @@
-Remove-Item "C:\Users\chewy\Documents\SWGC\Website\game.love"
+Remove-Item "C:\Users\chewy\Documents\SWGC\gameWeb.love"
 
-Compress-Archive -Path "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection\*" -DestinationPath "C:\Users\chewy\Documents\SWGC\Website\game.zip" -Force
+Compress-Archive -Path "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection\*" -DestinationPath "C:\Users\chewy\Documents\SWGC\gameWeb.zip" -Force
 
-Rename-Item -Path "C:\Users\chewy\Documents\SWGC\Website\game.zip" -NewName "C:\Users\chewy\Documents\SWGC\Website\game.love"
+Rename-Item -Path "C:\Users\chewy\Documents\SWGC\gameWeb.zip" -NewName "C:\Users\chewy\Documents\SWGC\gameWeb.love"
 
-npx love.js.cmd -m 150000000 -t "Galaxy Collection" "C:\Users\chewy\Documents\SWGC\Website\game.love" "C:\Users\chewy\Documents\SWGC\Website unmodified" -c
+npx love.js.cmd -m 150000000 -t "Galaxy Collection" "C:\Users\chewy\Documents\SWGC\gameWeb.love" "C:\Users\chewy\Documents\SWGC\Website unmodified" -c
 
 cd "C:\Users\chewy\Documents\SWGC\Website unmodified"
 
