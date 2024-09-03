@@ -1,4 +1,4 @@
-npx love.js.cmd -m 150000000 -t "Galaxy Collection" "C:\Users\chewy\Documents\SWGC\Website\game.love" "C:\Users\chewy\Documents\SWGC\Website unmodified" -c
+npx love.js.cmd -m 150000000 -t "Galaxy Collection" "C:\Users\chewy\Documents\SWGC\gameWeb.love" "C:\Users\chewy\Documents\SWGC\Website unmodified" -c
 
 cd "C:\Users\chewy\Documents\SWGC\Website unmodified"
 

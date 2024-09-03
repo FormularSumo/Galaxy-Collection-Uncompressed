@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+	<id>love</id>
+	<metadata_license>AGPL-1.0</metadata_license>
+	<project_license>AGPL-1.0</project_license>
+	<name>Star Wars Galaxy Collection</name>
+	<summary>A remake of the discontinued Star Wars Force Collection game</summary>
+	<description>
+		<p>Collect different rarity cards with unique stats - attack/defence/range/evade - and weapons/projectiles. Battle different levels in the campaign.</p>
+	</description>
+	<launchable type="desktop-id">love.desktop</launchable>
+	<url type="homepage">https://github.com/FormularSumo/Star-Wars-Galaxy-Collection</url>
+	<screenshots>
+		<screenshot type="default">
+			<image></image>
+		</screenshot>
+	</screenshots>
+	<provides>
+		<id>love.desktop</id>
+	</provides>
+</component>
