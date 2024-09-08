@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Galaxy Collection
+Comment=A remake of the discontinued Star Wars Force Collection game
+MimeType=application/x-love-game;
+Exec=love %f
+Type=Application
+Categories=Game;
+Terminal=false
+Icon=Icon
+NoDisplay=true
