@@ -8,10 +8,8 @@ cd "/home/james/Documents/SWGC/Web output"
 
 rm -r "/home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web/game.data" "/home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web/game.js"
 
-cp "/home/james/Documents/SWGC/Web output/game.data" "/home/james/Documents/SWGC/Web output/game.js" "/home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web/"
+cp "/home/james/Documents/SWGC/Web output/game.data" "/home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web/src"
 
-rm -r "/home/james/Documents/SWGC/Web output"
-
-cd /home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web
+cd /home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web/src
 
 konsole -e python3 -m http.server

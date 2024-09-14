@@ -8,8 +8,6 @@ rm -r "/home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web/game.data" "/h
 
 cp "/home/james/Documents/SWGC/Web output/game.data" "/home/james/Documents/SWGC/Web output/game.js" "/home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web/"
 
-rm -r "/home/james/Documents/SWGC/Web output"
-
 cd /home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web
 
 konsole -e python3 -m http.server
