@@ -4,10 +4,10 @@ love.js -m 150000000 -t "Galaxy Collection" "/home/james/Documents/SWGC/gameWeb.
 
 cd "/home/james/Documents/SWGC/Web output"
 
-rm -r "/home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web/game.data"
+rm -r "/home/james/Documents/SWGC/Galaxy-Collection-Web/game.data"
 
-cp "/home/james/Documents/SWGC/Web output/game.data" "/home/james/Documents/SWGC/Web output/game.js" "/home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web/"
+cp "/home/james/Documents/SWGC/Web output/game.data" "/home/james/Documents/SWGC/Web output/game.js" "/home/james/Documents/SWGC/Galaxy-Collection-Web/"
 
-cd /home/james/Documents/SWGC/Star-Wars-Galaxy-Collection-Web
+cd /home/james/Documents/SWGC/Galaxy-Collection-Web
 
 konsole -e python3 -m http.server

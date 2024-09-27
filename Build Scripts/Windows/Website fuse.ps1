@@ -1,6 +1,6 @@
 Remove-Item "C:\Users\chewy\Documents\SWGC\gameWeb.love"
 
-Compress-Archive -Path "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection\*" -DestinationPath "C:\Users\chewy\Documents\SWGC\gameWeb.zip" -Force
+Compress-Archive -Path "C:\Users\chewy\Documents\SWGC\Galaxy-Collection\*" -DestinationPath "C:\Users\chewy\Documents\SWGC\gameWeb.zip" -Force
 
 Rename-Item -Path "C:\Users\chewy\Documents\SWGC\gameWeb.zip" -NewName "C:\Users\chewy\Documents\SWGC\gameWeb.love"
 
@@ -8,12 +8,12 @@ npx love.js.cmd -m 150000000 -t "Galaxy Collection" "C:\Users\chewy\Documents\SW
 
 cd "C:\Users\chewy\Documents\SWGC\Website unmodified"
 
-Remove-Item "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection-Web\game.data" -Recurse
-Remove-Item "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection-Web\game.js" -Recurse
+Remove-Item "C:\Users\chewy\Documents\SWGC\Galaxy-Collection-Web\game.data" -Recurse
+Remove-Item "C:\Users\chewy\Documents\SWGC\Galaxy-Collection-Web\game.js" -Recurse
 
-cmd /c copy "C:\Users\chewy\Documents\SWGC\Website unmodified\game.data" "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection-Web\game.data"
-cmd /c copy "C:\Users\chewy\Documents\SWGC\Website unmodified\game.js" "C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection-Web\game.js"
+cmd /c copy "C:\Users\chewy\Documents\SWGC\Website unmodified\game.data" "C:\Users\chewy\Documents\SWGC\Galaxy-Collection-Web\game.data"
+cmd /c copy "C:\Users\chewy\Documents\SWGC\Website unmodified\game.js" "C:\Users\chewy\Documents\SWGC\Galaxy-Collection-Web\game.js"
 
-cd C:\Users\chewy\Documents\SWGC\Star-Wars-Galaxy-Collection-Web
+cd C:\Users\chewy\Documents\SWGC\Galaxy-Collection-Web
 
 python -m http.server 8000
