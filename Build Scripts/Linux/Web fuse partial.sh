@@ -6,8 +6,8 @@ cd "/home/james/Documents/SWGC/Web output"
 
 rm -r "/home/james/Documents/SWGC/Galaxy-Collection-Web/game.data"
 
-cp "/home/james/Documents/SWGC/Web output/game.data" "/home/james/Documents/SWGC/Web output/game.js" "/home/james/Documents/SWGC/Galaxy-Collection-Web/"
+cp "/home/james/Documents/SWGC/Web output/game.data" "/home/james/Documents/SWGC/Galaxy-Collection-Web/src"
 
-cd /home/james/Documents/SWGC/Galaxy-Collection-Web
+cd /home/james/Documents/SWGC/Galaxy-Collection-Web/src
 
 konsole -e python3 -m http.server
